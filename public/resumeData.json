@@ -35,7 +35,7 @@
         "school":"Syracuse University",
         "degree":"B.S. in Computer Science",
         "graduated":"December 2020",
-        "description":"description"
+        "description":["College of Engineering and Computer Science","ECS Leadership Scholarship", "Core Classes Taken: Data Structures, Analysis of Algorithms, Design of Operating Systems, Software Specification/Implementation, Evolutionary Machine Learning, Social Media & Data Mining"]
       }
     ],
     "work":[
@@ -43,19 +43,19 @@
         "company":"Jireh Clothing",
         "title":"Technology Consultant Intern",
         "years":"June 2019 - August 2019",
-        "description":"work description"
+        "description":["Analyze information to determine, recommend, and plan installation of a new system or modification of an existing system","Analyze needs and software requirements to determine the feasibility of design within summer time constraint","Create an inventory system that would communicate with different services already being utilized to streamline the business flow"]
       },
       {
         "company":"Syracuse University, College of Engineering and Computer Science",
         "title":"ECS REU Summer Intern",
         "years":"June 2018 - August 2018",
-        "description":"work description"
+        "description":["Assist Dr. Steve Chapin in developing a prototype implementation of an Electric Vehicle Charging Negotiation Platform","Analyze and interpret quantitative and qualitative results","Prepare reports consisting of progress and final product to be presented to the ECS REU program","Develop a protocol for the exchange of electrical power between the electrical grid and electric vehicles"]
       },
       {
         "company":"Jisan Research Institute",
         "title":"High School Researcher",
         "years":"January 2014 - November 2016",
-        "description":"work description"
+        "description":["Assist Dr. Sanza Kazadi in utilizing swarm design methodology to develop classes of swarm solutions to specific specifications", "Lead a team of high school students in developing and collecting quantitative data on simulations of swarm classes","Prepare a research paper and poster to publish/present at ICAART 2017","Research Paper Title: Generating Swarm Solution Classes using the Hamiltonian Method of Swarm Design"]
       }
     ],
     "skills":[
