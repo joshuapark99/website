@@ -42,7 +42,7 @@ class About extends Component {
                   <p>
                      {/*<a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>*/}
                      <a href={resumeDownload} download>
-                       <button type="button" className="btn btn-indigo btn-lg" style={{float:"left"}}>Download </button>
+                       <button type="button" className="btn btn-indigo btn-lg" style={{float:"left"}}>Download Resume</button>
                      </a>
                   </p>
                </div>
