@@ -96,6 +96,24 @@
         "category":"hackathon project for CuseHacks",
         "image":"attempt1.png",
         "url":"https://github.com/Plaudible/lazybot"
+      },
+      {
+        "title": "NearMe",
+        "category":"Senior Capstone Project using iOS and Agile",
+        "image":"nearme.PNG",
+        "url": "https://github.com/joshuapark99/NearMe"
+      },
+      {
+        "title": "President Sentiment Analysis",
+        "category":"Data Mining and Sentiment Analysis on 2020 presidential candidates",
+        "image":"sentiment.PNG",
+        "url": "https://github.com/joshuapark99/PresidentSentimentAnalysis"
+      },
+      {
+        "title": "Boids"
+        "category":"A simulation of a group of birds following the boid rules",
+        "image":"boid.PNG",
+        "url": "https://github.com/joshuapark99/boids"
       }
     ]
   },
