@@ -23,11 +23,11 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
 
   }
-  
+
 
   getResumeData(){
     $.ajax({
-      url: 'https://cors-anywhere.herokuapp.com/' + process.env.PUBLIC_URL + '/resumeData.json',
+      url: 'process.env.PUBLIC_URL + '/resumeData.json',
       dataType:'json',
       cache: false,
       success: function(data){
