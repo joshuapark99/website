@@ -110,7 +110,7 @@
         "url": "https://github.com/joshuapark99/PresidentSentimentAnalysis"
       },
       {
-        "title": "Boids"
+        "title": "Boids",
         "category":"A simulation of a group of birds following the boid rules",
         "image":"boid.PNG",
         "url": "https://github.com/joshuapark99/boids"
