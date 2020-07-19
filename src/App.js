@@ -26,7 +26,7 @@ class App extends Component {
 
   getResumeData(){
     $.ajax({
-      url:'https://cors-anywhere.herokuapp.com/'+ process.env.PUBLIC_URL + '/resumeData.json',
+      url:process.env.PUBLIC_URL + '/resumeData.json',
       dataType:'json',
       cache: false,
       success: function(data){
