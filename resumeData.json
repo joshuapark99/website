@@ -35,7 +35,7 @@
         "school":"Syracuse University",
         "degree":"B.S. in Computer Science",
         "graduated":"December 2020",
-        "description":["College of Engineering and Computer Science","ECS Leadership Scholarship", "Core Classes Taken: Data Structures, Analysis of Algorithms, Design of Operating Systems, Software Specification/Implementation, Evolutionary Machine Learning, Social Media & Data Mining"]
+        "description":["College of Engineering and Computer Science","ECS Leadership Scholarship", "Core Classes Taken: Design of Operating Systems, Software Specification/Implementation, Evolutionary Machine Learning, Social Media & Data Mining, Intro to Cryptography, Access Control, Security, & Trust, and Web System Architecture"]
       }
     ],
     "work":[
