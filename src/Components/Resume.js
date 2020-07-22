@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import SpacingGrid from './demo';
 
 class Resume extends Component {
-  render() {
 
+  // Grid(props) {
+  //   //console.log(props);
+  //   return (<SpacingGrid props={props<Array(props.length())}>/>);
+  // }
+
+  render() {
     if(this.props.data){
+      //console.log(this.props.data.skills);
       var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
@@ -28,10 +35,29 @@ class Resume extends Component {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
+      // var skills = () => {
+      //   return <SpacingGrid props={this.props.skills}/>;
+      // }
     }
 
     return (
       <section id="resume">
+
+
+      <div className="row skill">
+
+         <div className="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+
+            <p>{skillmessage}
+            </p>
+            {/*<p>{skills}</p>*/}
+
+			</div>
+      </div>
 
       <div className="row education">
          <div className="three columns header-col">
@@ -61,24 +87,7 @@ class Resume extends Component {
 
 
 
-      {/*<div className="row skill">
 
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
-      </div>*/}
    </section>
     );
   }
