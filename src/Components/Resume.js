@@ -54,7 +54,7 @@ class Resume extends Component {
 
             <p>{skillmessage}
             </p>
-            {/*<p>{skills}</p>*/}
+            {/*<p>{skills}</p>
 
 			</div>
       </div>*/}
