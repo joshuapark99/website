@@ -114,6 +114,12 @@
         "category":"A simulation of a group of birds following the boid rules",
         "image":"boid.PNG",
         "url": "https://github.com/joshuapark99/boids"
+      },
+      {
+        "title": "Discord Bot (IN PROGRESS)",
+        "category":"A Discord Bot to be used to play music and play small games while in a text or voice channel",
+        "image":"discord.png",
+        "url": "https://github.com/joshuapark99/DiscordBotProject"
       }
     ]
   }
